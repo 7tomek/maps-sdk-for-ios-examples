@@ -7,81 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A120919929AFD1BE64BBC33 /* Pods_MapsSDKExamplesCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3483DB5B448940381235DD77 /* Pods_MapsSDKExamplesCommon.framework */; };
+		22A8D043DB1913DD2DEAB00E /* Pods_MapsSDKExamplesObjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CDB7D81D9C6167F476E260 /* Pods_MapsSDKExamplesObjc.framework */; };
+		24A1C24E78B25A3A90764ECA /* Pods_MapsSDKExamplesVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B848CC35BF7F61E38BFC7268 /* Pods_MapsSDKExamplesVC.framework */; };
+		371C3E0C4082BA63E1C1946A /* Pods_MapsSDKExamplesSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF7057D6F618695C11857D8 /* Pods_MapsSDKExamplesSwift.framework */; };
 		6E14CCFC2148F7D10060C405 /* RoutingBatchRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E14CCFB2148F7D10060C405 /* RoutingBatchRouteViewController.swift */; };
 		6E14CCFF2148FBB50060C405 /* RoutingBatchRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14CCFE2148FBB50060C405 /* RoutingBatchRouteViewController.m */; };
 		6E241CFA21AEDD2500818A53 /* MapMultipleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E241CF921AEDD2500818A53 /* MapMultipleViewController.m */; };
-		6E365F672158E77900FD24D2 /* MapVectorTrafficViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E365F662158E77900FD24D2 /* MapVectorTrafficViewControllerTests.m */; };
-		6E365F6F2158EE1800FD24D2 /* XCUIElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E365F6E2158EE1800FD24D2 /* XCUIElement.m */; };
-		6E365F722158F18800FD24D2 /* XCTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E365F712158F18800FD24D2 /* XCTestCase.m */; };
-		6E365F76215909DC00FD24D2 /* MapLanguageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E365F75215909DC00FD24D2 /* MapLanguageViewControllerTests.m */; };
-		6E365F7821590BD600FD24D2 /* MapGeopoliticalViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E365F7721590BD600FD24D2 /* MapGeopoliticalViewControllerTests.m */; };
-		6E365F7A21590C4D00FD24D2 /* MapCustomStyleViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E365F7921590C4D00FD24D2 /* MapCustomStyleViewControllerTests.m */; };
-		6E365F7C215915E900FD24D2 /* MapStaticImageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E365F7B215915E900FD24D2 /* MapStaticImageViewControllerTests.m */; };
 		6E4620ED21C3FE4D005E19FE /* RoutingAvoidVignettesAndAreasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4620EC21C3FE4D005E19FE /* RoutingAvoidVignettesAndAreasViewController.swift */; };
-		6E4F7699215243DB0084946F /* MapGeopoliticalViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F7694215243DB0084946F /* MapGeopoliticalViewControllerTests.swift */; };
-		6E4F769A215243DB0084946F /* MapLanguageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F7695215243DB0084946F /* MapLanguageViewControllerTests.swift */; };
-		6E4F769B215243DB0084946F /* MapCustomStyleViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F7696215243DB0084946F /* MapCustomStyleViewControllerTests.swift */; };
-		6E4F769C215243DB0084946F /* MapRasterTrafficViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F7697215243DB0084946F /* MapRasterTrafficViewControllerTests.swift */; };
-		6E4F769D215243DB0084946F /* MapVectorTrafficViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F7698215243DB0084946F /* MapVectorTrafficViewControllerTests.swift */; };
-		6E4F769F215244C60084946F /* MapStaticImageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F769E215244C60084946F /* MapStaticImageViewControllerTests.swift */; };
-		6E4F76A1215244F60084946F /* MapPerspectiveViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F76A0215244F60084946F /* MapPerspectiveViewControllerTests.swift */; };
-		6E4F76A321526A220084946F /* MapEventsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F76A221526A220084946F /* MapEventsViewControllerTests.swift */; };
-		6E4F76A521526D170084946F /* MapUIExtensionsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F76A421526D170084946F /* MapUIExtensionsViewControllerTests.swift */; };
-		6E4F76A7215271DC0084946F /* MapMarkersViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F76A6215271DC0084946F /* MapMarkersViewControllerTests.swift */; };
-		6E4F76A92152728A0084946F /* MapAdvancedMarkersViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F76A82152728A0084946F /* MapAdvancedMarkersViewControllerTests.swift */; };
-		6E4F76AB215272CD0084946F /* MapBallonsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F76AA215272CD0084946F /* MapBallonsViewControllerTests.swift */; };
-		6E4F76AD2152735C0084946F /* MapShapesViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F76AC2152735C0084946F /* MapShapesViewControllerTests.swift */; };
-		6E4F76AF215273990084946F /* MapMarkersClusteringViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4F76AE215273990084946F /* MapMarkersClusteringViewControllerTests.swift */; };
 		6E769330219D858200D8717A /* MapMultipleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E76932F219D858200D8717A /* MapMultipleViewController.swift */; };
 		6E8E940721CCC15200A9788F /* RoutingAvoidVignettesAndAreasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8E940621CCC15200A9788F /* RoutingAvoidVignettesAndAreasViewController.m */; };
-		6E9BF266221FD4290033BD98 /* MapSwitchingLayersViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BF265221FD4290033BD98 /* MapSwitchingLayersViewControllerTests.swift */; };
-		6E9BF268221FD5D90033BD98 /* MapSwitchingLayersViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BF267221FD5D90033BD98 /* MapSwitchingLayersViewControllerTests.m */; };
 		6E9BF26A22201B1B0033BD98 /* SearchPolygonsForRevGeoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BF26922201B1B0033BD98 /* SearchPolygonsForRevGeoViewController.swift */; };
-		6E9BF26C22201B300033BD98 /* SearchPolygonsForRevGeoViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BF26B22201B300033BD98 /* SearchPolygonsForRevGeoViewControllerTests.swift */; };
 		6E9BF26F22201B530033BD98 /* SearchPolygonsForRevGeoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BF26E22201B530033BD98 /* SearchPolygonsForRevGeoViewController.m */; };
-		6E9BF27122201B650033BD98 /* SearchPolygonsForRevGeoViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BF27022201B650033BD98 /* SearchPolygonsForRevGeoViewControllerTests.m */; };
-		6EAEC65D21CCD99D00BEACD2 /* RoutingAvoidVignettesAndAreasViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAEC65C21CCD99D00BEACD2 /* RoutingAvoidVignettesAndAreasViewControllerTests.m */; };
-		6EAEC65F21CCDC6C00BEACD2 /* RoutingAvoidVignettesAndAreasViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAEC65E21CCDC6C00BEACD2 /* RoutingAvoidVignettesAndAreasViewControllerTests.swift */; };
-		6EB3C4B3215A05BD00AC580C /* MapPerspectiveViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4B2215A05BD00AC580C /* MapPerspectiveViewControllerTests.m */; };
-		6EB3C4B5215A069F00AC580C /* MapEventsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4B4215A069F00AC580C /* MapEventsViewControllerTests.m */; };
-		6EB3C4B7215A078300AC580C /* MapUIExtensionsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4B6215A078300AC580C /* MapUIExtensionsViewControllerTests.m */; };
-		6EB3C4B9215A07C300AC580C /* MapMarkersViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4B8215A07C300AC580C /* MapMarkersViewControllerTests.m */; };
-		6EB3C4BB215A0E9F00AC580C /* MapAdvancedMarkersViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4BA215A0E9F00AC580C /* MapAdvancedMarkersViewControllerTests.m */; };
-		6EB3C4BD215A0ED500AC580C /* MapBallonsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4BC215A0ED500AC580C /* MapBallonsViewControllerTests.m */; };
-		6EB3C4BF215A0F0C00AC580C /* MapShapesViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4BE215A0F0C00AC580C /* MapShapesViewControllerTests.m */; };
-		6EB3C4C1215A0F5000AC580C /* MapMarkersClusteringViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4C0215A0F5000AC580C /* MapMarkersClusteringViewControllerTests.m */; };
-		6EB3C4C4215A11E400AC580C /* TrafficIncidentsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4C3215A11E400AC580C /* TrafficIncidentsViewControllerTests.m */; };
-		6EB3C4C7215A13DD00AC580C /* RoutingTravelModesViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4C6215A13DD00AC580C /* RoutingTravelModesViewControllerTests.m */; };
-		6EB3C4C9215A1AF300AC580C /* RoutingRouteTypesViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4C8215A1AF300AC580C /* RoutingRouteTypesViewControllerTests.m */; };
-		6EB3C4CB215A1B7A00AC580C /* RoutingRouteAvoidsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4CA215A1B7A00AC580C /* RoutingRouteAvoidsViewControllerTests.m */; };
-		6EB3C4CD215A1DC400AC580C /* RoutingRouteWithWaypointsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4CC215A1DC400AC580C /* RoutingRouteWithWaypointsViewControllerTests.m */; };
-		6EB3C4CF215A1E7000AC580C /* RoutingDepartureArrivalTimeViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4CE215A1E7000AC580C /* RoutingDepartureArrivalTimeViewControllerTests.m */; };
-		6EB3C4D1215A1F7C00AC580C /* RoutingAlternativesRouteViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4D0215A1F7C00AC580C /* RoutingAlternativesRouteViewControllerTests.m */; };
-		6EB3C4D3215A209A00AC580C /* RoutingManeuverListViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4D2215A209A00AC580C /* RoutingManeuverListViewControllerTests.m */; };
 		6EB3C4D5215A233700AC580C /* Maneuver.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB3C4D4215A233600AC580C /* Maneuver.xcassets */; };
-		6EB3C4D7215A253600AC580C /* RoutingConsumptionModelViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4D6215A253600AC580C /* RoutingConsumptionModelViewControllerTests.m */; };
-		6EB3C4D9215A25BE00AC580C /* RoutingSupportingPointsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4D8215A25BE00AC580C /* RoutingSupportingPointsViewControllerTests.m */; };
-		6EB3C4DB215A270A00AC580C /* RoutingBatchRouteViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4DA215A270A00AC580C /* RoutingBatchRouteViewControllerTests.m */; };
-		6EB3C4DE215A287800AC580C /* SearchAddressViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4DD215A287800AC580C /* SearchAddressViewControllerTests.m */; };
-		6EB3C4E0215A2DCC00AC580C /* SearchCategoryViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4DF215A2DCC00AC580C /* SearchCategoryViewControllerTests.m */; };
-		6EB3C4E2215A2E8000AC580C /* SearchLanguageSelectorViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4E1215A2E8000AC580C /* SearchLanguageSelectorViewControllerTests.m */; };
-		6EB3C4E4215A2F4600AC580C /* SearchTypeaheadParameterViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4E3215A2F4600AC580C /* SearchTypeaheadParameterViewControllerTests.m */; };
-		6EB3C4E6215A2FB200AC580C /* SearchMaxFuzzinessLevelViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4E5215A2FB200AC580C /* SearchMaxFuzzinessLevelViewControllerTests.m */; };
-		6EB3C4E8215A314100AC580C /* SearchReverseGeocodingViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4E7215A314100AC580C /* SearchReverseGeocodingViewControllerTests.m */; };
-		6EB3C4EA215A32A800AC580C /* SearchAlongTheRouteViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4E9215A32A800AC580C /* SearchAlongTheRouteViewControllerTests.m */; };
-		6EB3C4EC215A336000AC580C /* SearchGeometryViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4EB215A336000AC580C /* SearchGeometryViewControllerTests.m */; };
-		6EB3C4EE215A342100AC580C /* SearchEntryPointsViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4ED215A342100AC580C /* SearchEntryPointsViewControllerTests.m */; };
-		6EB3C4F0215A348E00AC580C /* SearchAdditionalDataViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4EF215A348E00AC580C /* SearchAdditionalDataViewControllerTests.m */; };
-		6EB3C4F2215A351400AC580C /* SearchBatchViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3C4F1215A351400AC580C /* SearchBatchViewControllerTests.m */; };
-		6EC23FC02281AD7C000BE076 /* MapDynamicMapSourcesViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC23FBF2281AD7C000BE076 /* MapDynamicMapSourcesViewControllerTests.swift */; };
-		6EC23FC22281ADF6000BE076 /* MapDynamicLayerOrderingViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC23FC12281ADF6000BE076 /* MapDynamicLayerOrderingViewControllerTests.swift */; };
-		6EC23FC42281B083000BE076 /* MapDynamicMapSourcesViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC23FC32281B082000BE076 /* MapDynamicMapSourcesViewControllerTests.m */; };
-		6EC23FC62281B0BD000BE076 /* MapDynamicLayerOrderingViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC23FC52281B0BD000BE076 /* MapDynamicLayerOrderingViewControllerTests.m */; };
 		6EC9A83F221EC1E100799614 /* OptionsViewMultiSelectWithReset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9A83E221EC1E100799614 /* OptionsViewMultiSelectWithReset.swift */; };
 		6EDCC21F221EB23B006EC951 /* MapSwitchingLayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDCC21E221EB23B006EC951 /* MapSwitchingLayersViewController.swift */; };
 		6EDCC222221EB321006EC951 /* MapSwitchingLayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDCC221221EB321006EC951 /* MapSwitchingLayersViewController.m */; };
-		6EE8F36721B14882006B8149 /* MapMultipleViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE8F36621B14882006B8149 /* MapMultipleViewControllerTests.m */; };
-		6EE8F36921B14984006B8149 /* MapMultipleViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE8F36821B14984006B8149 /* MapMultipleViewControllerTests.swift */; };
 		72006913213E4BCF005B20D1 /* MapsSDKExamplesVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 72006903213E4BCF005B20D1 /* MapsSDKExamplesVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72006917213E4BCF005B20D1 /* MapsSDKExamplesVC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72006901213E4BCF005B20D1 /* MapsSDKExamplesVC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7200691E213E4BEB005B20D1 /* MapBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7220279A213D135C00296ACF /* MapBaseViewController.m */; };
@@ -142,33 +83,6 @@
 		7215017321A6AA330016C396 /* MatrixRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7215017221A6AA330016C396 /* MatrixRow.swift */; };
 		7215017421A6B25B0016C396 /* MatrixRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7215017021A6A50B0016C396 /* MatrixRow.xib */; };
 		7215017521A6B25C0016C396 /* MatrixRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7215017021A6A50B0016C396 /* MatrixRow.xib */; };
-		7216F251215224DF00DB2159 /* MapTilesViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F250215224DF00DB2159 /* MapTilesViewControllerTests.swift */; };
-		7216F2672152343A00DB2159 /* MapTilesViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7216F2662152343A00DB2159 /* MapTilesViewControllerTests.m */; };
-		7216F26C2152388000DB2159 /* TrafficIncidentsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F26B2152388000DB2159 /* TrafficIncidentsViewControllerTests.swift */; };
-		7216F26E215260DD00DB2159 /* RoutingTravelModesViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F26D215260DD00DB2159 /* RoutingTravelModesViewControllerTests.swift */; };
-		7216F2702152612400DB2159 /* RoutingRouteTypesViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F26F2152612400DB2159 /* RoutingRouteTypesViewControllerTests.swift */; };
-		7216F2722152612F00DB2159 /* RoutingRouteAvoidsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F2712152612F00DB2159 /* RoutingRouteAvoidsViewControllerTests.swift */; };
-		7216F2742152613D00DB2159 /* RoutingRouteWithWaypointsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F2732152613D00DB2159 /* RoutingRouteWithWaypointsViewControllerTests.swift */; };
-		7216F2762152614800DB2159 /* RoutingDepartureArrivalTimeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F2752152614800DB2159 /* RoutingDepartureArrivalTimeViewControllerTests.swift */; };
-		7216F2782152615600DB2159 /* RoutingAlternativesRouteViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F2772152615600DB2159 /* RoutingAlternativesRouteViewControllerTests.swift */; };
-		7216F27A2152616600DB2159 /* RoutingManeuverListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F2792152616600DB2159 /* RoutingManeuverListViewControllerTests.swift */; };
-		7216F27C2152617400DB2159 /* RoutingConsumptionModelViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F27B2152617400DB2159 /* RoutingConsumptionModelViewControllerTests.swift */; };
-		7216F27E2152618100DB2159 /* RoutingSupportingPointsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F27D2152618100DB2159 /* RoutingSupportingPointsViewControllerTests.swift */; };
-		7216F2802152619500DB2159 /* RoutingReachableRangeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F27F2152619500DB2159 /* RoutingReachableRangeViewControllerTests.swift */; };
-		7216F282215261A400DB2159 /* RoutingBatchRouteViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F281215261A300DB2159 /* RoutingBatchRouteViewControllerTests.swift */; };
-		7216F2842152694000DB2159 /* SearchAddressViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F2832152694000DB2159 /* SearchAddressViewControllerTests.swift */; };
-		7216F2862152694F00DB2159 /* SearchCategoryViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F2852152694F00DB2159 /* SearchCategoryViewControllerTests.swift */; };
-		7216F2882152696100DB2159 /* SearchLanguageSelectorViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F2872152696100DB2159 /* SearchLanguageSelectorViewControllerTests.swift */; };
-		7216F28A2152697000DB2159 /* SearchTypeaheadParameterViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F2892152697000DB2159 /* SearchTypeaheadParameterViewControllerTests.swift */; };
-		7216F28C2152697E00DB2159 /* SearchMaxFuzzinessLevelViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F28B2152697E00DB2159 /* SearchMaxFuzzinessLevelViewControllerTests.swift */; };
-		7216F28E2152698F00DB2159 /* SearchReverseGeocodingViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F28D2152698F00DB2159 /* SearchReverseGeocodingViewControllerTests.swift */; };
-		7216F2902152699D00DB2159 /* SearchAlongTheRouteViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F28F2152699D00DB2159 /* SearchAlongTheRouteViewControllerTests.swift */; };
-		7216F292215269AC00DB2159 /* SearchGeometryViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F291215269AC00DB2159 /* SearchGeometryViewControllerTests.swift */; };
-		7216F294215269BB00DB2159 /* SearchEntryPointsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F293215269BB00DB2159 /* SearchEntryPointsViewControllerTests.swift */; };
-		7216F296215269CD00DB2159 /* SearchAdditionalDataViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F295215269CD00DB2159 /* SearchAdditionalDataViewControllerTests.swift */; };
-		7216F298215269DB00DB2159 /* SearchBatchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F297215269DB00DB2159 /* SearchBatchViewControllerTests.swift */; };
-		7216F29C2154BA4600DB2159 /* XCUIElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F29B2154BA4600DB2159 /* XCUIElement.swift */; };
-		7216F29E2155023F00DB2159 /* XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7216F29D2155023F00DB2159 /* XCTestCase.swift */; };
 		721A70472272EDE9009D9F0D /* MapDynamicMapSourcesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 721A70462272EDE9009D9F0D /* MapDynamicMapSourcesViewController.m */; };
 		721A704B2272F5F8009D9F0D /* layer_fill.json in Resources */ = {isa = PBXBuildFile; fileRef = 721A70492272F5F8009D9F0D /* layer_fill.json */; };
 		721A704C2272F5F8009D9F0D /* layer_fill.json in Resources */ = {isa = PBXBuildFile; fileRef = 721A70492272F5F8009D9F0D /* layer_fill.json */; };
@@ -215,15 +129,10 @@
 		722A8907216B73E900078A32 /* LICENSE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 722A8906216B73E900078A32 /* LICENSE.pdf */; };
 		722A8908216B73E900078A32 /* LICENSE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 722A8906216B73E900078A32 /* LICENSE.pdf */; };
 		7238475421A7FE43007F775D /* RoutingMatrixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7238475321A7FE43007F775D /* RoutingMatrixViewController.m */; };
-		7238475621A82FA0007F775D /* RoutingMatrixViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7238475521A82FA0007F775D /* RoutingMatrixViewControllerTests.swift */; };
-		7238475821A830F4007F775D /* RoutingMatrixViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7238475721A830F4007F775D /* RoutingMatrixViewControllerTests.m */; };
-		723F24C8216F63AE007D7FB1 /* MapsSDKExamples.h in Headers */ = {isa = PBXBuildFile; fileRef = 723F24C6216F63AE007D7FB1 /* MapsSDKExamples.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		723F7BD421ECC6FE006AC52F /* RoutingBatchReachableRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723F7BD321ECC6FE006AC52F /* RoutingBatchReachableRouteViewController.swift */; };
 		723F7BD721EDB4C6006AC52F /* ReachableRangeQueryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723F7BD621EDB4C6006AC52F /* ReachableRangeQueryFactory.swift */; };
-		724CF8EF21BA7FAF00CF5C83 /* MapRouteCustomisationViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724CF8EE21BA7FAF00CF5C83 /* MapRouteCustomisationViewControllerTests.swift */; };
 		724CF8F121BA80A700CF5C83 /* MapRouteCustomisationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724CF8F021BA80A700CF5C83 /* MapRouteCustomisationViewController.swift */; };
 		724CF8F521BA92E400CF5C83 /* MapRouteCustomisationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 724CF8F321BA92E400CF5C83 /* MapRouteCustomisationViewController.m */; };
-		724CF8F721BA999300CF5C83 /* MapRouteCustomisationViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 724CF8F621BA999300CF5C83 /* MapRouteCustomisationViewControllerTests.m */; };
 		724F2C6621198D1C00412634 /* MapTilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724F2C6521198D1C00412634 /* MapTilesViewController.swift */; };
 		725FCDD1227FF9FE007EE921 /* MapDynamicLayerOrderingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725FCDD0227FF9FE007EE921 /* MapDynamicLayerOrderingViewController.swift */; };
 		725FCDD3228065C8007EE921 /* layer_road.json in Resources */ = {isa = PBXBuildFile; fileRef = 725FCDD2228065C7007EE921 /* layer_road.json */; };
@@ -298,8 +207,6 @@
 		72AB73A1213FE89200D72DF1 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 72AB739F213FE89200D72DF1 /* style.json */; };
 		72B5D40B21EF3D7E00868D44 /* RoutingBatchReachableRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B5D40A21EF3D7E00868D44 /* RoutingBatchReachableRouteViewController.m */; };
 		72B5D40F21EF53CB00868D44 /* ReachableRangeQueryFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B5D40E21EF53CB00868D44 /* ReachableRangeQueryFactory.m */; };
-		72B5D41121EF6D3C00868D44 /* RoutingBatchReachableRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B5D41021EF6D3C00868D44 /* RoutingBatchReachableRouteViewController.swift */; };
-		72B5D41321EF700200868D44 /* RoutingBatchReachableRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B5D41221EF700200868D44 /* RoutingBatchReachableRouteViewController.m */; };
 		72C09FEA214BEA9100F74412 /* MapsSDKExamplesCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7220273D2139607500296ACF /* MapsSDKExamplesCommon.framework */; };
 		72C09FEB214BEA9100F74412 /* MapsSDKExamplesCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7220273D2139607500296ACF /* MapsSDKExamplesCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		72C09FEE214BEA9100F74412 /* MapsSDKExamplesVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72006901213E4BCF005B20D1 /* MapsSDKExamplesVC.framework */; };
@@ -309,18 +216,10 @@
 		72C09FF7214C0CE200F74412 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C09FF5214C0CDA00F74412 /* Foundation.framework */; };
 		72C09FF8214C0CE700F74412 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C09FF3214C0CD200F74412 /* UIKit.framework */; };
 		72CEFD0C213D8AB300F12B6F /* MapsSDKExamplesUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 7220273F2139607500296ACF /* MapsSDKExamplesUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72D76830215EC0AB00641880 /* MapRasterTrafficViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D7682F215EC0AB00641880 /* MapRasterTrafficViewControllerTests.m */; };
-		72D76832215EC28500641880 /* RoutingReachableRangeViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D76831215EC28500641880 /* RoutingReachableRangeViewControllerTests.m */; };
 		72E285C32133E4B600D260CB /* TrafficCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72E285C22133E4B600D260CB /* TrafficCell.xib */; };
 		72E285C92134136500D260CB /* TrafficHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72E285C82134136500D260CB /* TrafficHeader.xib */; };
 		9C6535BA222E59990050EE60 /* MapFollowTheChevronController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6535B9222E59990050EE60 /* MapFollowTheChevronController.swift */; };
 		9C6535BD222E5DBD0050EE60 /* MapFollowTheChevronController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6535BB222E5DBD0050EE60 /* MapFollowTheChevronController.m */; };
-		9C6535C0222E617C0050EE60 /* MapFollowTheChevronControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6535BF222E617C0050EE60 /* MapFollowTheChevronControllerTests.swift */; };
-		9C6535C3222E633E0050EE60 /* RouteMatchingViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6535C1222E633E0050EE60 /* RouteMatchingViewControllerTests.swift */; };
-		9C6535C4222E633E0050EE60 /* MapMatchingViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6535C2222E633E0050EE60 /* MapMatchingViewControllerTests.swift */; };
-		9C6535C7222E65320050EE60 /* MapFollowTheChevronControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6535C6222E65320050EE60 /* MapFollowTheChevronControllerTests.m */; };
-		9C6535CA222E69FA0050EE60 /* MapMatchingViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6535C8222E69FA0050EE60 /* MapMatchingViewControllerTests.m */; };
-		9C6535CB222E69FA0050EE60 /* RouteMatchingViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6535C9222E69FA0050EE60 /* RouteMatchingViewControllerTests.m */; };
 		9C7076762202EC5100B3FF19 /* MapMatchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7076752202EC5100B3FF19 /* MapMatchingViewController.swift */; };
 		9C7076782202F1F100B3FF19 /* DrivingSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7076772202F1F100B3FF19 /* DrivingSource.swift */; };
 		9C70767A2202F39300B3FF19 /* ProviderLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7076792202F39300B3FF19 /* ProviderLocation.swift */; };
@@ -358,40 +257,12 @@
 			remoteGlobalIDString = 7220273C2139607500296ACF;
 			remoteInfo = MapsSDKExamplesCommon;
 		};
-		7216F24821521BEA00DB2159 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9C77CF312106F7B600A3179B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9C77CF382106F7B600A3179B;
-			remoteInfo = MapsSDKExamplesSwift;
-		};
-		7216F25C2152326900DB2159 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9C77CF312106F7B600A3179B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 722027052139605300296ACF;
-			remoteInfo = MapsSDKExamplesObjc;
-		};
 		722027602139688500296ACF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9C77CF312106F7B600A3179B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7220273C2139607500296ACF;
 			remoteInfo = MapsSDKExamplesUI;
-		};
-		723F24CE216F6463007D7FB1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9C77CF312106F7B600A3179B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9C77CF382106F7B600A3179B;
-			remoteInfo = MapsSDKExamplesSwift;
-		};
-		723F24D0216F6466007D7FB1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9C77CF312106F7B600A3179B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 722027052139605300296ACF;
-			remoteInfo = MapsSDKExamplesObjc;
 		};
 		72C09FEC214BEA9100F74412 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -437,81 +308,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		236C4EB54D73403B120D6E54 /* Pods-MapsSDKExamplesSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsSDKExamplesSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapsSDKExamplesSwift/Pods-MapsSDKExamplesSwift.release.xcconfig"; sourceTree = "<group>"; };
+		302A9D9CA5BA14E38C4B81A5 /* Pods-MapsSDKExamplesSwift.enterprise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsSDKExamplesSwift.enterprise.xcconfig"; path = "Pods/Target Support Files/Pods-MapsSDKExamplesSwift/Pods-MapsSDKExamplesSwift.enterprise.xcconfig"; sourceTree = "<group>"; };
+		3483DB5B448940381235DD77 /* Pods_MapsSDKExamplesCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapsSDKExamplesCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E671F83EC5EA1EF5706F53 /* Pods-MapsSDKExamplesVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsSDKExamplesVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapsSDKExamplesVC/Pods-MapsSDKExamplesVC.release.xcconfig"; sourceTree = "<group>"; };
+		4FD7419954ED7DC09DAFCCF6 /* Pods-MapsSDKExamplesObjc.enterprise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsSDKExamplesObjc.enterprise.xcconfig"; path = "Pods/Target Support Files/Pods-MapsSDKExamplesObjc/Pods-MapsSDKExamplesObjc.enterprise.xcconfig"; sourceTree = "<group>"; };
+		4FF7057D6F618695C11857D8 /* Pods_MapsSDKExamplesSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapsSDKExamplesSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A3CF6DACE4CCC9211DA95A /* Pods-MapsSDKExamplesCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsSDKExamplesCommon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapsSDKExamplesCommon/Pods-MapsSDKExamplesCommon.debug.xcconfig"; sourceTree = "<group>"; };
+		58CDB7D81D9C6167F476E260 /* Pods_MapsSDKExamplesObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapsSDKExamplesObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		629D439EEC5818B05BD71678 /* Pods-MapsSDKExamplesObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsSDKExamplesObjc.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapsSDKExamplesObjc/Pods-MapsSDKExamplesObjc.release.xcconfig"; sourceTree = "<group>"; };
 		6E14CCFB2148F7D10060C405 /* RoutingBatchRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingBatchRouteViewController.swift; sourceTree = "<group>"; };
 		6E14CCFD2148FBB50060C405 /* RoutingBatchRouteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoutingBatchRouteViewController.h; sourceTree = "<group>"; };
 		6E14CCFE2148FBB50060C405 /* RoutingBatchRouteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingBatchRouteViewController.m; sourceTree = "<group>"; };
 		6E241CF821AEDD2500818A53 /* MapMultipleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapMultipleViewController.h; sourceTree = "<group>"; };
 		6E241CF921AEDD2500818A53 /* MapMultipleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapMultipleViewController.m; sourceTree = "<group>"; };
-		6E365F662158E77900FD24D2 /* MapVectorTrafficViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapVectorTrafficViewControllerTests.m; sourceTree = "<group>"; };
-		6E365F6E2158EE1800FD24D2 /* XCUIElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCUIElement.m; sourceTree = "<group>"; };
-		6E365F712158F18800FD24D2 /* XCTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTestCase.m; sourceTree = "<group>"; };
-		6E365F75215909DC00FD24D2 /* MapLanguageViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapLanguageViewControllerTests.m; sourceTree = "<group>"; };
-		6E365F7721590BD600FD24D2 /* MapGeopoliticalViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapGeopoliticalViewControllerTests.m; sourceTree = "<group>"; };
-		6E365F7921590C4D00FD24D2 /* MapCustomStyleViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapCustomStyleViewControllerTests.m; sourceTree = "<group>"; };
-		6E365F7B215915E900FD24D2 /* MapStaticImageViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapStaticImageViewControllerTests.m; sourceTree = "<group>"; };
 		6E377D6F211050DC0060DB9E /* TTConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTConstants.swift; sourceTree = "<group>"; };
 		6E4620EC21C3FE4D005E19FE /* RoutingAvoidVignettesAndAreasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingAvoidVignettesAndAreasViewController.swift; sourceTree = "<group>"; };
-		6E4F7694215243DB0084946F /* MapGeopoliticalViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapGeopoliticalViewControllerTests.swift; sourceTree = "<group>"; };
-		6E4F7695215243DB0084946F /* MapLanguageViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapLanguageViewControllerTests.swift; sourceTree = "<group>"; };
-		6E4F7696215243DB0084946F /* MapCustomStyleViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCustomStyleViewControllerTests.swift; sourceTree = "<group>"; };
-		6E4F7697215243DB0084946F /* MapRasterTrafficViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapRasterTrafficViewControllerTests.swift; sourceTree = "<group>"; };
-		6E4F7698215243DB0084946F /* MapVectorTrafficViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVectorTrafficViewControllerTests.swift; sourceTree = "<group>"; };
-		6E4F769E215244C60084946F /* MapStaticImageViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapStaticImageViewControllerTests.swift; sourceTree = "<group>"; };
-		6E4F76A0215244F60084946F /* MapPerspectiveViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPerspectiveViewControllerTests.swift; sourceTree = "<group>"; };
-		6E4F76A221526A220084946F /* MapEventsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapEventsViewControllerTests.swift; sourceTree = "<group>"; };
-		6E4F76A421526D170084946F /* MapUIExtensionsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUIExtensionsViewControllerTests.swift; sourceTree = "<group>"; };
-		6E4F76A6215271DC0084946F /* MapMarkersViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMarkersViewControllerTests.swift; sourceTree = "<group>"; };
-		6E4F76A82152728A0084946F /* MapAdvancedMarkersViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAdvancedMarkersViewControllerTests.swift; sourceTree = "<group>"; };
-		6E4F76AA215272CD0084946F /* MapBallonsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBallonsViewControllerTests.swift; sourceTree = "<group>"; };
-		6E4F76AC2152735C0084946F /* MapShapesViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapShapesViewControllerTests.swift; sourceTree = "<group>"; };
-		6E4F76AE215273990084946F /* MapMarkersClusteringViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMarkersClusteringViewControllerTests.swift; sourceTree = "<group>"; };
 		6E76932F219D858200D8717A /* MapMultipleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMultipleViewController.swift; sourceTree = "<group>"; };
 		6E8E940521CCC15200A9788F /* RoutingAvoidVignettesAndAreasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoutingAvoidVignettesAndAreasViewController.h; sourceTree = "<group>"; };
 		6E8E940621CCC15200A9788F /* RoutingAvoidVignettesAndAreasViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingAvoidVignettesAndAreasViewController.m; sourceTree = "<group>"; };
-		6E9BF265221FD4290033BD98 /* MapSwitchingLayersViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSwitchingLayersViewControllerTests.swift; sourceTree = "<group>"; };
-		6E9BF267221FD5D90033BD98 /* MapSwitchingLayersViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapSwitchingLayersViewControllerTests.m; sourceTree = "<group>"; };
 		6E9BF26922201B1B0033BD98 /* SearchPolygonsForRevGeoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPolygonsForRevGeoViewController.swift; sourceTree = "<group>"; };
-		6E9BF26B22201B300033BD98 /* SearchPolygonsForRevGeoViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPolygonsForRevGeoViewControllerTests.swift; sourceTree = "<group>"; };
 		6E9BF26D22201B530033BD98 /* SearchPolygonsForRevGeoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchPolygonsForRevGeoViewController.h; sourceTree = "<group>"; };
 		6E9BF26E22201B530033BD98 /* SearchPolygonsForRevGeoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchPolygonsForRevGeoViewController.m; sourceTree = "<group>"; };
-		6E9BF27022201B650033BD98 /* SearchPolygonsForRevGeoViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchPolygonsForRevGeoViewControllerTests.m; sourceTree = "<group>"; };
-		6EAEC65C21CCD99D00BEACD2 /* RoutingAvoidVignettesAndAreasViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingAvoidVignettesAndAreasViewControllerTests.m; sourceTree = "<group>"; };
-		6EAEC65E21CCDC6C00BEACD2 /* RoutingAvoidVignettesAndAreasViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingAvoidVignettesAndAreasViewControllerTests.swift; sourceTree = "<group>"; };
-		6EB3C4B2215A05BD00AC580C /* MapPerspectiveViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPerspectiveViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4B4215A069F00AC580C /* MapEventsViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapEventsViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4B6215A078300AC580C /* MapUIExtensionsViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapUIExtensionsViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4B8215A07C300AC580C /* MapMarkersViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapMarkersViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4BA215A0E9F00AC580C /* MapAdvancedMarkersViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapAdvancedMarkersViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4BC215A0ED500AC580C /* MapBallonsViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapBallonsViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4BE215A0F0C00AC580C /* MapShapesViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapShapesViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4C0215A0F5000AC580C /* MapMarkersClusteringViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapMarkersClusteringViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4C3215A11E400AC580C /* TrafficIncidentsViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrafficIncidentsViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4C6215A13DD00AC580C /* RoutingTravelModesViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingTravelModesViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4C8215A1AF300AC580C /* RoutingRouteTypesViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingRouteTypesViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4CA215A1B7A00AC580C /* RoutingRouteAvoidsViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingRouteAvoidsViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4CC215A1DC400AC580C /* RoutingRouteWithWaypointsViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingRouteWithWaypointsViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4CE215A1E7000AC580C /* RoutingDepartureArrivalTimeViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingDepartureArrivalTimeViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4D0215A1F7C00AC580C /* RoutingAlternativesRouteViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingAlternativesRouteViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4D2215A209A00AC580C /* RoutingManeuverListViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingManeuverListViewControllerTests.m; sourceTree = "<group>"; };
 		6EB3C4D4215A233600AC580C /* Maneuver.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Maneuver.xcassets; sourceTree = "<group>"; };
-		6EB3C4D6215A253600AC580C /* RoutingConsumptionModelViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingConsumptionModelViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4D8215A25BE00AC580C /* RoutingSupportingPointsViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingSupportingPointsViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4DA215A270A00AC580C /* RoutingBatchRouteViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingBatchRouteViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4DD215A287800AC580C /* SearchAddressViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchAddressViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4DF215A2DCC00AC580C /* SearchCategoryViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchCategoryViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4E1215A2E8000AC580C /* SearchLanguageSelectorViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchLanguageSelectorViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4E3215A2F4600AC580C /* SearchTypeaheadParameterViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchTypeaheadParameterViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4E5215A2FB200AC580C /* SearchMaxFuzzinessLevelViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchMaxFuzzinessLevelViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4E7215A314100AC580C /* SearchReverseGeocodingViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchReverseGeocodingViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4E9215A32A800AC580C /* SearchAlongTheRouteViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchAlongTheRouteViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4EB215A336000AC580C /* SearchGeometryViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchGeometryViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4ED215A342100AC580C /* SearchEntryPointsViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchEntryPointsViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4EF215A348E00AC580C /* SearchAdditionalDataViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchAdditionalDataViewControllerTests.m; sourceTree = "<group>"; };
-		6EB3C4F1215A351400AC580C /* SearchBatchViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchBatchViewControllerTests.m; sourceTree = "<group>"; };
-		6EC23FBF2281AD7C000BE076 /* MapDynamicMapSourcesViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDynamicMapSourcesViewControllerTests.swift; sourceTree = "<group>"; };
-		6EC23FC12281ADF6000BE076 /* MapDynamicLayerOrderingViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDynamicLayerOrderingViewControllerTests.swift; sourceTree = "<group>"; };
-		6EC23FC32281B082000BE076 /* MapDynamicMapSourcesViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapDynamicMapSourcesViewControllerTests.m; sourceTree = "<group>"; };
-		6EC23FC52281B0BD000BE076 /* MapDynamicLayerOrderingViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapDynamicLayerOrderingViewControllerTests.m; sourceTree = "<group>"; };
 		6EC9A83E221EC1E100799614 /* OptionsViewMultiSelectWithReset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewMultiSelectWithReset.swift; sourceTree = "<group>"; };
 		6EDCC21E221EB23B006EC951 /* MapSwitchingLayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSwitchingLayersViewController.swift; sourceTree = "<group>"; };
 		6EDCC220221EB321006EC951 /* MapSwitchingLayersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapSwitchingLayersViewController.h; sourceTree = "<group>"; };
@@ -519,8 +338,7 @@
 		6EE13A88210AFC7000B7507A /* SubOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubOptions.swift; sourceTree = "<group>"; };
 		6EE13A8A210B136800B7507A /* SubOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubOptionsViewController.swift; sourceTree = "<group>"; };
 		6EE13A8C210B2F8100B7507A /* SubOptionsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubOptionsCollectionViewCell.swift; sourceTree = "<group>"; };
-		6EE8F36621B14882006B8149 /* MapMultipleViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapMultipleViewControllerTests.m; sourceTree = "<group>"; };
-		6EE8F36821B14984006B8149 /* MapMultipleViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMultipleViewControllerTests.swift; sourceTree = "<group>"; };
+		7146C56DB357AA36BBE4F5A3 /* Pods-MapsSDKExamplesObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsSDKExamplesObjc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapsSDKExamplesObjc/Pods-MapsSDKExamplesObjc.debug.xcconfig"; sourceTree = "<group>"; };
 		72006901213E4BCF005B20D1 /* MapsSDKExamplesVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapsSDKExamplesVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72006903213E4BCF005B20D1 /* MapsSDKExamplesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapsSDKExamplesVC.h; sourceTree = "<group>"; };
 		72006904213E4BCF005B20D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -540,34 +358,7 @@
 		7215017021A6A50B0016C396 /* MatrixRow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MatrixRow.xib; sourceTree = "<group>"; };
 		7215017221A6AA330016C396 /* MatrixRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixRow.swift; sourceTree = "<group>"; };
 		7216F24321521BEA00DB2159 /* MapsSDKExamplesSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapsSDKExamplesSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7216F250215224DF00DB2159 /* MapTilesViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTilesViewControllerTests.swift; sourceTree = "<group>"; };
 		7216F2572152326900DB2159 /* MapsSDKExamplesObjcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapsSDKExamplesObjcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7216F2662152343A00DB2159 /* MapTilesViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapTilesViewControllerTests.m; sourceTree = "<group>"; };
-		7216F26B2152388000DB2159 /* TrafficIncidentsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficIncidentsViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F26D215260DD00DB2159 /* RoutingTravelModesViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingTravelModesViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F26F2152612400DB2159 /* RoutingRouteTypesViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingRouteTypesViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F2712152612F00DB2159 /* RoutingRouteAvoidsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingRouteAvoidsViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F2732152613D00DB2159 /* RoutingRouteWithWaypointsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingRouteWithWaypointsViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F2752152614800DB2159 /* RoutingDepartureArrivalTimeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingDepartureArrivalTimeViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F2772152615600DB2159 /* RoutingAlternativesRouteViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingAlternativesRouteViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F2792152616600DB2159 /* RoutingManeuverListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingManeuverListViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F27B2152617400DB2159 /* RoutingConsumptionModelViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingConsumptionModelViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F27D2152618100DB2159 /* RoutingSupportingPointsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingSupportingPointsViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F27F2152619500DB2159 /* RoutingReachableRangeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingReachableRangeViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F281215261A300DB2159 /* RoutingBatchRouteViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingBatchRouteViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F2832152694000DB2159 /* SearchAddressViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAddressViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F2852152694F00DB2159 /* SearchCategoryViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCategoryViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F2872152696100DB2159 /* SearchLanguageSelectorViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLanguageSelectorViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F2892152697000DB2159 /* SearchTypeaheadParameterViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTypeaheadParameterViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F28B2152697E00DB2159 /* SearchMaxFuzzinessLevelViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMaxFuzzinessLevelViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F28D2152698F00DB2159 /* SearchReverseGeocodingViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchReverseGeocodingViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F28F2152699D00DB2159 /* SearchAlongTheRouteViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAlongTheRouteViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F291215269AC00DB2159 /* SearchGeometryViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGeometryViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F293215269BB00DB2159 /* SearchEntryPointsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEntryPointsViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F295215269CD00DB2159 /* SearchAdditionalDataViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAdditionalDataViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F297215269DB00DB2159 /* SearchBatchViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBatchViewControllerTests.swift; sourceTree = "<group>"; };
-		7216F29B2154BA4600DB2159 /* XCUIElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUIElement.swift; sourceTree = "<group>"; };
-		7216F29D2155023F00DB2159 /* XCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCase.swift; sourceTree = "<group>"; };
 		721A70462272EDE9009D9F0D /* MapDynamicMapSourcesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapDynamicMapSourcesViewController.m; sourceTree = "<group>"; };
 		721A70482272EE8E009D9F0D /* MapDynamicMapSourcesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDynamicMapSourcesViewController.h; sourceTree = "<group>"; };
 		721A70492272F5F8009D9F0D /* layer_fill.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = layer_fill.json; sourceTree = "<group>"; };
@@ -599,17 +390,12 @@
 		722A8906216B73E900078A32 /* LICENSE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LICENSE.pdf; sourceTree = "<group>"; };
 		7238475221A7FE43007F775D /* RoutingMatrixViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoutingMatrixViewController.h; sourceTree = "<group>"; };
 		7238475321A7FE43007F775D /* RoutingMatrixViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingMatrixViewController.m; sourceTree = "<group>"; };
-		7238475521A82FA0007F775D /* RoutingMatrixViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingMatrixViewControllerTests.swift; sourceTree = "<group>"; };
-		7238475721A830F4007F775D /* RoutingMatrixViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingMatrixViewControllerTests.m; sourceTree = "<group>"; };
 		723F24C4216F63AE007D7FB1 /* MapsSDKExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapsSDKExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		723F24C6216F63AE007D7FB1 /* MapsSDKExamples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapsSDKExamples.h; sourceTree = "<group>"; };
 		723F7BD321ECC6FE006AC52F /* RoutingBatchReachableRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingBatchReachableRouteViewController.swift; sourceTree = "<group>"; };
 		723F7BD621EDB4C6006AC52F /* ReachableRangeQueryFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachableRangeQueryFactory.swift; sourceTree = "<group>"; };
-		724CF8EE21BA7FAF00CF5C83 /* MapRouteCustomisationViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouteCustomisationViewControllerTests.swift; sourceTree = "<group>"; };
 		724CF8F021BA80A700CF5C83 /* MapRouteCustomisationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapRouteCustomisationViewController.swift; sourceTree = "<group>"; };
 		724CF8F321BA92E400CF5C83 /* MapRouteCustomisationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapRouteCustomisationViewController.m; sourceTree = "<group>"; };
 		724CF8F421BA92E400CF5C83 /* MapRouteCustomisationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapRouteCustomisationViewController.h; sourceTree = "<group>"; };
-		724CF8F621BA999300CF5C83 /* MapRouteCustomisationViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapRouteCustomisationViewControllerTests.m; sourceTree = "<group>"; };
 		724F2C6521198D1C00412634 /* MapTilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTilesViewController.swift; sourceTree = "<group>"; };
 		724F2C6B2119B0D900412634 /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
 		724F2C6F2119DC1400412634 /* OptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionButton.swift; sourceTree = "<group>"; };
@@ -754,12 +540,8 @@
 		72B5D40A21EF3D7E00868D44 /* RoutingBatchReachableRouteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingBatchReachableRouteViewController.m; sourceTree = "<group>"; };
 		72B5D40D21EF53CB00868D44 /* ReachableRangeQueryFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReachableRangeQueryFactory.h; sourceTree = "<group>"; };
 		72B5D40E21EF53CB00868D44 /* ReachableRangeQueryFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReachableRangeQueryFactory.m; sourceTree = "<group>"; };
-		72B5D41021EF6D3C00868D44 /* RoutingBatchReachableRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingBatchReachableRouteViewController.swift; sourceTree = "<group>"; };
-		72B5D41221EF700200868D44 /* RoutingBatchReachableRouteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingBatchReachableRouteViewController.m; sourceTree = "<group>"; };
 		72C09FF3214C0CD200F74412 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		72C09FF5214C0CDA00F74412 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		72D7682F215EC0AB00641880 /* MapRasterTrafficViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapRasterTrafficViewControllerTests.m; sourceTree = "<group>"; };
-		72D76831215EC28500641880 /* RoutingReachableRangeViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoutingReachableRangeViewControllerTests.m; sourceTree = "<group>"; };
 		72E285BF2133C41D00D260CB /* TrafficIncidentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficIncidentsViewController.swift; sourceTree = "<group>"; };
 		72E285C22133E4B600D260CB /* TrafficCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrafficCell.xib; sourceTree = "<group>"; };
 		72E285C42133E63500D260CB /* TrafficCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficCell.swift; sourceTree = "<group>"; };
@@ -767,18 +549,17 @@
 		72E285C82134136500D260CB /* TrafficHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrafficHeader.xib; sourceTree = "<group>"; };
 		72E285CC213418A600D260CB /* ManeuverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManeuverCell.swift; sourceTree = "<group>"; };
 		72E285CE21341BC900D260CB /* ManeuverIconGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManeuverIconGenerator.swift; sourceTree = "<group>"; };
+		857F8D7F095452E68EDAF640 /* Pods-MapsSDKExamplesSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsSDKExamplesSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapsSDKExamplesSwift/Pods-MapsSDKExamplesSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		884EF5ECAC27CB05DCDB5F00 /* Pods-MapsSDKExamplesVC.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsSDKExamplesVC.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-MapsSDKExamplesVC/Pods-MapsSDKExamplesVC.adhoc.xcconfig"; sourceTree = "<group>"; };
+		984179DDCF9A6B1FBE9EF75C /* Pods-MapsSDKExamplesObjc.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsSDKExamplesObjc.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-MapsSDKExamplesObjc/Pods-MapsSDKExamplesObjc.adhoc.xcconfig"; sourceTree = "<group>"; };
+		9B26E749CC2969A989364484 /* Pods-MapsSDKExamplesCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsSDKExamplesCommon.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapsSDKExamplesCommon/Pods-MapsSDKExamplesCommon.release.xcconfig"; sourceTree = "<group>"; };
 		9C17CB902109E8750085A51B /* OptionsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsCollectionViewCell.swift; sourceTree = "<group>"; };
 		9C17CB922109E8750085A51B /* Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
 		9C17CB932109E8750085A51B /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		9C360E399427C74C000A388B /* Pods-MapsSDKExamplesVC.enterprise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsSDKExamplesVC.enterprise.xcconfig"; path = "Pods/Target Support Files/Pods-MapsSDKExamplesVC/Pods-MapsSDKExamplesVC.enterprise.xcconfig"; sourceTree = "<group>"; };
 		9C6535B9222E59990050EE60 /* MapFollowTheChevronController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapFollowTheChevronController.swift; sourceTree = "<group>"; };
 		9C6535BB222E5DBD0050EE60 /* MapFollowTheChevronController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapFollowTheChevronController.m; sourceTree = "<group>"; };
 		9C6535BC222E5DBD0050EE60 /* MapFollowTheChevronController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapFollowTheChevronController.h; sourceTree = "<group>"; };
-		9C6535BF222E617C0050EE60 /* MapFollowTheChevronControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapFollowTheChevronControllerTests.swift; sourceTree = "<group>"; };
-		9C6535C1222E633E0050EE60 /* RouteMatchingViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteMatchingViewControllerTests.swift; sourceTree = "<group>"; };
-		9C6535C2222E633E0050EE60 /* MapMatchingViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapMatchingViewControllerTests.swift; sourceTree = "<group>"; };
-		9C6535C6222E65320050EE60 /* MapFollowTheChevronControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapFollowTheChevronControllerTests.m; sourceTree = "<group>"; };
-		9C6535C8222E69FA0050EE60 /* MapMatchingViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapMatchingViewControllerTests.m; sourceTree = "<group>"; };
-		9C6535C9222E69FA0050EE60 /* RouteMatchingViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteMatchingViewControllerTests.m; sourceTree = "<group>"; };
 		9C7076752202EC5100B3FF19 /* MapMatchingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapMatchingViewController.swift; sourceTree = "<group>"; };
 		9C7076772202F1F100B3FF19 /* DrivingSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrivingSource.swift; sourceTree = "<group>"; };
 		9C7076792202F39300B3FF19 /* ProviderLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderLocation.swift; sourceTree = "<group>"; };
@@ -802,6 +583,11 @@
 		9C78AB5D220D7B5200EAC9FA /* GeofencingBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeofencingBaseViewController.h; sourceTree = "<group>"; };
 		9C78AB5E220D7B5200EAC9FA /* GeofencingBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeofencingBaseViewController.m; sourceTree = "<group>"; };
 		9CCB057321885E54006BA780 /* FollowTheChevronSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowTheChevronSource.swift; sourceTree = "<group>"; };
+		B848CC35BF7F61E38BFC7268 /* Pods_MapsSDKExamplesVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapsSDKExamplesVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA60B8F64BE50C8E8B14ABD /* Pods-MapsSDKExamplesVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsSDKExamplesVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapsSDKExamplesVC/Pods-MapsSDKExamplesVC.debug.xcconfig"; sourceTree = "<group>"; };
+		F174C65622BC3423CC4531C5 /* Pods-MapsSDKExamplesCommon.enterprise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsSDKExamplesCommon.enterprise.xcconfig"; path = "Pods/Target Support Files/Pods-MapsSDKExamplesCommon/Pods-MapsSDKExamplesCommon.enterprise.xcconfig"; sourceTree = "<group>"; };
+		F2A5A98D44EC66BF7B4EFC34 /* Pods-MapsSDKExamplesCommon.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsSDKExamplesCommon.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-MapsSDKExamplesCommon/Pods-MapsSDKExamplesCommon.adhoc.xcconfig"; sourceTree = "<group>"; };
+		F407E486EA3337F18A063989 /* Pods-MapsSDKExamplesSwift.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsSDKExamplesSwift.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-MapsSDKExamplesSwift/Pods-MapsSDKExamplesSwift.adhoc.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -810,6 +596,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C81FE2121AED86400D9C2C4 /* MapsSDKExamplesCommon.framework in Frameworks */,
+				24A1C24E78B25A3A90764ECA /* Pods_MapsSDKExamplesVC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -819,6 +606,7 @@
 			files = (
 				72C09FF8214C0CE700F74412 /* UIKit.framework in Frameworks */,
 				72C09FF7214C0CE200F74412 /* Foundation.framework in Frameworks */,
+				22A8D043DB1913DD2DEAB00E /* Pods_MapsSDKExamplesObjc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -826,6 +614,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A120919929AFD1BE64BBC33 /* Pods_MapsSDKExamplesCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -837,6 +626,7 @@
 				72C09FF4214C0CD300F74412 /* UIKit.framework in Frameworks */,
 				72C09FEE214BEA9100F74412 /* MapsSDKExamplesVC.framework in Frameworks */,
 				72C09FEA214BEA9100F74412 /* MapsSDKExamplesCommon.framework in Frameworks */,
+				371C3E0C4082BA63E1C1946A /* Pods_MapsSDKExamplesSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -848,8 +638,35 @@
 			children = (
 				72C09FF5214C0CDA00F74412 /* Foundation.framework */,
 				72C09FF3214C0CD200F74412 /* UIKit.framework */,
+				3483DB5B448940381235DD77 /* Pods_MapsSDKExamplesCommon.framework */,
+				58CDB7D81D9C6167F476E260 /* Pods_MapsSDKExamplesObjc.framework */,
+				4FF7057D6F618695C11857D8 /* Pods_MapsSDKExamplesSwift.framework */,
+				B848CC35BF7F61E38BFC7268 /* Pods_MapsSDKExamplesVC.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		651C35A5A04489C00C0703C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50A3CF6DACE4CCC9211DA95A /* Pods-MapsSDKExamplesCommon.debug.xcconfig */,
+				9B26E749CC2969A989364484 /* Pods-MapsSDKExamplesCommon.release.xcconfig */,
+				F2A5A98D44EC66BF7B4EFC34 /* Pods-MapsSDKExamplesCommon.adhoc.xcconfig */,
+				F174C65622BC3423CC4531C5 /* Pods-MapsSDKExamplesCommon.enterprise.xcconfig */,
+				7146C56DB357AA36BBE4F5A3 /* Pods-MapsSDKExamplesObjc.debug.xcconfig */,
+				629D439EEC5818B05BD71678 /* Pods-MapsSDKExamplesObjc.release.xcconfig */,
+				984179DDCF9A6B1FBE9EF75C /* Pods-MapsSDKExamplesObjc.adhoc.xcconfig */,
+				4FD7419954ED7DC09DAFCCF6 /* Pods-MapsSDKExamplesObjc.enterprise.xcconfig */,
+				857F8D7F095452E68EDAF640 /* Pods-MapsSDKExamplesSwift.debug.xcconfig */,
+				236C4EB54D73403B120D6E54 /* Pods-MapsSDKExamplesSwift.release.xcconfig */,
+				F407E486EA3337F18A063989 /* Pods-MapsSDKExamplesSwift.adhoc.xcconfig */,
+				302A9D9CA5BA14E38C4B81A5 /* Pods-MapsSDKExamplesSwift.enterprise.xcconfig */,
+				CDA60B8F64BE50C8E8B14ABD /* Pods-MapsSDKExamplesVC.debug.xcconfig */,
+				36E671F83EC5EA1EF5706F53 /* Pods-MapsSDKExamplesVC.release.xcconfig */,
+				884EF5ECAC27CB05DCDB5F00 /* Pods-MapsSDKExamplesVC.adhoc.xcconfig */,
+				9C360E399427C74C000A388B /* Pods-MapsSDKExamplesVC.enterprise.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		6E377D7121105E9B0060DB9E /* Constants */ = {
@@ -1285,6 +1102,7 @@
 				72006902213E4BCF005B20D1 /* MapsSDKExamplesVC */,
 				9C77CF3A2106F7B600A3179B /* Products */,
 				4677BD7948620868BFCB13D1 /* Frameworks */,
+				651C35A5A04489C00C0703C1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1400,6 +1218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72006918213E4BCF005B20D1 /* Build configuration list for PBXNativeTarget "MapsSDKExamplesVC" */;
 			buildPhases = (
+				1C243DFF634A7D5832245816 /* [CP] Check Pods Manifest.lock */,
 				720068FC213E4BCF005B20D1 /* Sources */,
 				720068FD213E4BCF005B20D1 /* Frameworks */,
 				720068FE213E4BCF005B20D1 /* Headers */,
@@ -1419,10 +1238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7220272F2139605400296ACF /* Build configuration list for PBXNativeTarget "MapsSDKExamplesObjc" */;
 			buildPhases = (
+				8A8D98A64F6B6AD4AF4DB3F5 /* [CP] Check Pods Manifest.lock */,
 				722027022139605300296ACF /* Sources */,
 				722027032139605300296ACF /* Frameworks */,
 				722027042139605300296ACF /* Resources */,
 				7220279F213D307F00296ACF /* Embed Frameworks */,
+				60F677478929CE6936EE7066 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1439,6 +1260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 722027542139607500296ACF /* Build configuration list for PBXNativeTarget "MapsSDKExamplesCommon" */;
 			buildPhases = (
+				67957DAA0E5A37C457FAB612 /* [CP] Check Pods Manifest.lock */,
 				722027382139607500296ACF /* Sources */,
 				722027392139607500296ACF /* Frameworks */,
 				7220273A2139607500296ACF /* Headers */,
@@ -1457,10 +1279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C77CF4B2106F7B800A3179B /* Build configuration list for PBXNativeTarget "MapsSDKExamplesSwift" */;
 			buildPhases = (
+				C2AADD950193A0541D34EA57 /* [CP] Check Pods Manifest.lock */,
 				9C77CF352106F7B600A3179B /* Sources */,
 				9C77CF362106F7B600A3179B /* Frameworks */,
 				9C77CF372106F7B600A3179B /* Resources */,
 				72C09FF2214BEA9200F74412 /* Embed Frameworks */,
+				FB3065BEF7B3B0044E0300F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1621,6 +1445,173 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C243DFF634A7D5832245816 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapsSDKExamplesVC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60F677478929CE6936EE7066 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MapsSDKExamplesObjc/Pods-MapsSDKExamplesObjc-frameworks.sh",
+				"${PODS_ROOT}/TomTomOnlineSDKGeofencing/TomTomOnlineSDKGeofencing/TomTomOnlineSDKGeofencing.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKMaps/TomTomOnlineSDKMaps/TomTomOnlineSDKMaps.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKMapsDriving/TomTomOnlineSDKMapsDriving/TomTomOnlineSDKMapsDriving.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKMapsStaticImage/TomTomOnlineSDKMapsStaticImage/TomTomOnlineSDKMapsStaticImage.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKMapsUIExtensions/TomTomOnlineSDKMapsUIExtensions/TomTomOnlineSDKMapsUIExtensions.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKRouting/TomTomOnlineSDKRouting/TomTomOnlineSDKRouting.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKSearch/TomTomOnlineSDKSearch/TomTomOnlineSDKSearch.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKTraffic/TomTomOnlineSDKTraffic/TomTomOnlineSDKTraffic.framework",
+				"${PODS_ROOT}/TomTomOnlineUtils/TomTomOnlineUtils/TomTomOnlineUtils.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKGeofencing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKMaps.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKMapsDriving.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKMapsStaticImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKMapsUIExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKRouting.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKSearch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKTraffic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineUtils.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapsSDKExamplesObjc/Pods-MapsSDKExamplesObjc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67957DAA0E5A37C457FAB612 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapsSDKExamplesCommon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A8D98A64F6B6AD4AF4DB3F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapsSDKExamplesObjc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2AADD950193A0541D34EA57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapsSDKExamplesSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB3065BEF7B3B0044E0300F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MapsSDKExamplesSwift/Pods-MapsSDKExamplesSwift-frameworks.sh",
+				"${PODS_ROOT}/TomTomOnlineSDKGeofencing/TomTomOnlineSDKGeofencing/TomTomOnlineSDKGeofencing.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKMaps/TomTomOnlineSDKMaps/TomTomOnlineSDKMaps.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKMapsDriving/TomTomOnlineSDKMapsDriving/TomTomOnlineSDKMapsDriving.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKMapsStaticImage/TomTomOnlineSDKMapsStaticImage/TomTomOnlineSDKMapsStaticImage.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKMapsUIExtensions/TomTomOnlineSDKMapsUIExtensions/TomTomOnlineSDKMapsUIExtensions.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKRouting/TomTomOnlineSDKRouting/TomTomOnlineSDKRouting.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKSearch/TomTomOnlineSDKSearch/TomTomOnlineSDKSearch.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKTraffic/TomTomOnlineSDKTraffic/TomTomOnlineSDKTraffic.framework",
+				"${PODS_ROOT}/TomTomOnlineUtils/TomTomOnlineUtils/TomTomOnlineUtils.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKGeofencing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKMaps.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKMapsDriving.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKMapsStaticImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKMapsUIExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKRouting.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKSearch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKTraffic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineUtils.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapsSDKExamplesSwift/Pods-MapsSDKExamplesSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		720068FC213E4BCF005B20D1 /* Sources */ = {
@@ -1854,6 +1845,7 @@
 /* Begin XCBuildConfiguration section */
 		72006919213E4BCF005B20D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA60B8F64BE50C8E8B14ABD /* Pods-MapsSDKExamplesVC.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -1880,6 +1872,7 @@
 		};
 		7200691A213E4BCF005B20D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E671F83EC5EA1EF5706F53 /* Pods-MapsSDKExamplesVC.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -1959,6 +1952,7 @@
 		};
 		720E030E214BC41A0080E2EA /* Enterprise */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 302A9D9CA5BA14E38C4B81A5 /* Pods-MapsSDKExamplesSwift.enterprise.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1984,6 +1978,7 @@
 		};
 		720E0310214BC41A0080E2EA /* Enterprise */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FD7419954ED7DC09DAFCCF6 /* Pods-MapsSDKExamplesObjc.enterprise.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2009,6 +2004,7 @@
 		};
 		720E0312214BC41A0080E2EA /* Enterprise */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F174C65622BC3423CC4531C5 /* Pods-MapsSDKExamplesCommon.enterprise.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -2040,6 +2036,7 @@
 		};
 		720E0314214BC41A0080E2EA /* Enterprise */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C360E399427C74C000A388B /* Pods-MapsSDKExamplesVC.enterprise.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -2064,156 +2061,9 @@
 			};
 			name = Enterprise;
 		};
-		7216F24A21521BEA00DB2159 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = MapsSDKExamplesSwiftUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----your-bundle-here----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MapsSDKExamplesSwift;
-			};
-			name = Debug;
-		};
-		7216F24B21521BEA00DB2159 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = MapsSDKExamplesSwiftUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----your-bundle-here----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MapsSDKExamplesSwift;
-			};
-			name = Release;
-		};
-		7216F24C21521BEA00DB2159 /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = MapsSDKExamplesSwiftUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----your-bundle-here----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MapsSDKExamplesSwift;
-			};
-			name = Adhoc;
-		};
-		7216F24D21521BEA00DB2159 /* Enterprise */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = MapsSDKExamplesSwiftUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----your-bundle-here----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MapsSDKExamplesSwift;
-			};
-			name = Enterprise;
-		};
-		7216F25F2152326900DB2159 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = MapsSDKExamplesObjcUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----your-bundle-here----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MapsSDKExamplesObjc;
-			};
-			name = Debug;
-		};
-		7216F2602152326900DB2159 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = MapsSDKExamplesObjcUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----your-bundle-here----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MapsSDKExamplesObjc;
-			};
-			name = Release;
-		};
-		7216F2612152326900DB2159 /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = MapsSDKExamplesObjcUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----your-bundle-here----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MapsSDKExamplesObjc;
-			};
-			name = Adhoc;
-		};
-		7216F2622152326900DB2159 /* Enterprise */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = MapsSDKExamplesObjcUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----your-bundle-here----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MapsSDKExamplesObjc;
-			};
-			name = Enterprise;
-		};
 		722027302139605400296ACF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7146C56DB357AA36BBE4F5A3 /* Pods-MapsSDKExamplesObjc.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2240,6 +2090,7 @@
 		};
 		722027312139605400296ACF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 629D439EEC5818B05BD71678 /* Pods-MapsSDKExamplesObjc.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2265,6 +2116,7 @@
 		};
 		722027552139607500296ACF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A3CF6DACE4CCC9211DA95A /* Pods-MapsSDKExamplesCommon.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -2297,6 +2149,7 @@
 		};
 		722027562139607500296ACF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B26E749CC2969A989364484 /* Pods-MapsSDKExamplesCommon.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -2325,118 +2178,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		723F24C9216F63AE007D7FB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MapsSDKExamples/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----your-bundle-here----";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		723F24CA216F63AE007D7FB1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MapsSDKExamples/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----your-bundle-here----";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		723F24CB216F63AE007D7FB1 /* Adhoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MapsSDKExamples/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----your-bundle-here----";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Adhoc;
-		};
-		723F24CC216F63AE007D7FB1 /* Enterprise */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MapsSDKExamples/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----your-bundle-here----";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Enterprise;
 		};
 		72C09FE1214BC42E00F74412 /* Adhoc */ = {
 			isa = XCBuildConfiguration;
@@ -2493,6 +2234,7 @@
 		};
 		72C09FE2214BC42E00F74412 /* Adhoc */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F407E486EA3337F18A063989 /* Pods-MapsSDKExamplesSwift.adhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2518,6 +2260,7 @@
 		};
 		72C09FE4214BC42E00F74412 /* Adhoc */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 984179DDCF9A6B1FBE9EF75C /* Pods-MapsSDKExamplesObjc.adhoc.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2543,6 +2286,7 @@
 		};
 		72C09FE6214BC42E00F74412 /* Adhoc */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2A5A98D44EC66BF7B4EFC34 /* Pods-MapsSDKExamplesCommon.adhoc.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -2574,6 +2318,7 @@
 		};
 		72C09FE8214BC42E00F74412 /* Adhoc */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884EF5ECAC27CB05DCDB5F00 /* Pods-MapsSDKExamplesVC.adhoc.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -2713,6 +2458,7 @@
 		};
 		9C77CF4C2106F7B800A3179B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 857F8D7F095452E68EDAF640 /* Pods-MapsSDKExamplesSwift.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2737,6 +2483,7 @@
 		};
 		9C77CF4D2106F7B800A3179B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 236C4EB54D73403B120D6E54 /* Pods-MapsSDKExamplesSwift.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
