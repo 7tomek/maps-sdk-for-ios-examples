@@ -10,7 +10,9 @@ pool:
 steps:
 - task: CmdLine@2
   inputs:
-    script: '#!/bin/bash 
+    script: '#!/bin/bash
+
+    
       gem install fastlane -NV'
 - task: CocoaPods@0
   inputs:
