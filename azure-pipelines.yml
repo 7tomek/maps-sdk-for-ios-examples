@@ -5,11 +5,10 @@ trigger:
 pool:
   vmImage: 'macos-latest'
 
+steps:
 - task: CocoaPods@0
   inputs:
     forceRepoUpdate: true
-
-steps:
 - task: Xcode@5
   inputs:
     actions: 'build'
