@@ -6,11 +6,12 @@ pool:
   vmImage: 'macos-latest'
 
 
+
 steps:
-- task: Bash@3
+- task: CmdLine@2
   inputs:
-    targetType: 'inline'
-    shell: '/bin/bash gem install fastlane -NV'
+    script: '#!/bin/bash 
+      gem install fastlane -NV'
 - task: CocoaPods@0
   inputs:
     forceRepoUpdate: true
