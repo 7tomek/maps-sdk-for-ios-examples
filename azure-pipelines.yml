@@ -13,7 +13,9 @@ steps:
     script: '#!/bin/bash
 
     
-      gem install fastlane -NV'
+      gem install fastlane -NV
+      
+      fastlane init'
 - task: CocoaPods@0
   inputs:
     forceRepoUpdate: true
